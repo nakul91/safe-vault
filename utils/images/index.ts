@@ -14,7 +14,7 @@ import linkWhite from "../../public/assets/images/link_white.svg";
 import linkedinBlue from "../../public/assets/images/linkedin_blue.svg";
 import loadAvatar from "../../public/assets/images/load_avatar.png";
 import logo from "../../public/assets/images/logo.svg";
-import logo2 from "../../public/assets/images/logo_safe_vault.png";
+import logo2 from "../../public/assets/images/logo.svg";
 import logoutIcon from "../../public/assets/images/logout_icon.svg";
 import qrWhite from "../../public/assets/images/qr_white.svg";
 import safeLogo from "../../public/assets/images/safe_logo.svg";
@@ -29,70 +29,70 @@ import walletIcon from "../../public/assets/images/wallet_btn_image.svg";
 import x from "../../public/assets/images/x.svg";
 
 export type TImages =
-    | "logo"
-    | "logo2"
-    | "tchest"
-    | "tchestopen"
-    | "walletIcon"
-    | "backIcon"
-    | "shareBtnIcon"
-    | "transferIcon"
-    | "tokensLoading"
-    | "hamburgerBlack"
-    | "googleIcon"
-    | "chevronRight"
-    | "copyBlack"
-    | "logoutIcon"
-    | "helpIcon"
-    | "downloadBtnIcon"
-    | "downloadBtnIconBlack"
-    | "shareBtnIconWhite"
-    | "profileCardBg"
-    | "x"
-    | "telegramBlue"
-    | "linkedinBlue"
-    | "safeLogo"
-    | "baseLogo"
-    | "copyIconWhite"
-    | "linkWhite"
-    | "qrWhite"
-    | "ethLogo"
-    | "loadAvatar";
+  | "logo"
+  | "logo2"
+  | "tchest"
+  | "tchestopen"
+  | "walletIcon"
+  | "backIcon"
+  | "shareBtnIcon"
+  | "transferIcon"
+  | "tokensLoading"
+  | "hamburgerBlack"
+  | "googleIcon"
+  | "chevronRight"
+  | "copyBlack"
+  | "logoutIcon"
+  | "helpIcon"
+  | "downloadBtnIcon"
+  | "downloadBtnIconBlack"
+  | "shareBtnIconWhite"
+  | "profileCardBg"
+  | "x"
+  | "telegramBlue"
+  | "linkedinBlue"
+  | "safeLogo"
+  | "baseLogo"
+  | "copyIconWhite"
+  | "linkWhite"
+  | "qrWhite"
+  | "ethLogo"
+  | "loadAvatar";
 
 export type TNextImage = {
-    src: string;
-    height: number;
-    width: number;
+  src: string;
+  height: number;
+  width: number;
 };
 
 export const icons: Record<TImages, TNextImage> = {
-    logo,
-    logo2,
-    tchest,
-    tchestopen,
-    walletIcon,
-    backIcon,
-    shareBtnIcon,
-    transferIcon,
-    downloadBtnIcon,
-    tokensLoading,
-    hamburgerBlack,
-    googleIcon,
-    chevronRight,
-    copyBlack,
-    logoutIcon,
-    helpIcon,
-    ethLogo,
-    downloadBtnIconBlack,
-    shareBtnIconWhite,
-    profileCardBg,
-    x,
-    linkedinBlue,
-    telegramBlue,
-    safeLogo,
-    baseLogo,
-    copyIconWhite,
-    linkWhite,
-    qrWhite,
-    loadAvatar,
+  logo,
+  logo2,
+  tchest,
+  tchestopen,
+  walletIcon,
+  backIcon,
+  shareBtnIcon,
+  transferIcon,
+  downloadBtnIcon,
+  tokensLoading,
+  hamburgerBlack,
+  googleIcon,
+  chevronRight,
+  copyBlack,
+  logoutIcon,
+  helpIcon,
+  ethLogo,
+  downloadBtnIconBlack,
+  shareBtnIconWhite,
+  profileCardBg,
+  x,
+  linkedinBlue,
+  telegramBlue,
+  safeLogo,
+  baseLogo,
+  copyIconWhite,
+  linkWhite,
+  qrWhite,
+  loadAvatar,
 };
