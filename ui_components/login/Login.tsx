@@ -13,8 +13,12 @@ function Login(props: ILoginProps) {
   const { handleSetupChest, loader, signIn } = props;
 
   return (
-    <div className="h-[100vh] w-full bg-primary-50 relative">
-      <Image className="pt-20 w-full" src={icons.loginBg} alt="login" />
+    <div className="h-[100vh] w-full bg-primary-50 relative overflow-clip">
+      <Image
+        className="absolute left-0 top-20 w-full"
+        src={icons.loginBg}
+        alt="login"
+      />
       <div className="text-center absolute bottom-[200px] left-1/2 -translate-x-1/2 w-[calc(100vw-32px)]">
         <h1 className="mb-4 text-white font-extrabold text-xl">
           Grow your future
@@ -23,12 +27,13 @@ function Login(props: ILoginProps) {
           Invest for your future and get rewarded
         </p>
       </div>
-      <div className="absolute bottom-10 left-1/2 -translate-x-1/2 w-[calc(100vw-32px)]">
+      <div className="absolute bottom-10 left-1/2 -translate-x-1/2 w-[calc(100vw-32px)] xl:w-[15%]">
         <Button
           onClick={signIn}
           variant={"primary"}
           label="Login with Google"
           leftIcon={icons.googleIcon.src}
+          className=""
         />
       </div>
     </div>
