@@ -32,6 +32,7 @@ module.exports = {
         black: "#010101",
         white: "#FFFFFF",
         grey: "#7B7B7B",
+        purple: "#C4A8FF",
         primary: {
           50: "#161326",
           300: "#E5B89E",
@@ -40,9 +41,15 @@ module.exports = {
         },
         text: {
           100: "#BABDC2",
+          500: "#484D57",
+          900: "#0A0D14",
         },
         secondary: {
+          50: "#F5F5F5",
           100: "#282B30",
+          200: "#F3FFA8",
+          300: "#F5F5F5",
+          500: "#464E59",
         },
         lightGray: "#2B2D30",
       },

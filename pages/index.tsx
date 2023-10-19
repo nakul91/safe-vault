@@ -259,11 +259,12 @@ export default function Home() {
     switch (step) {
       case ESTEPS.ONE:
         return (
-          <Login
-            handleSetupChest={handleSetupChest}
-            loader={loader}
-            signIn={signIn}
-          />
+          // <Login
+          //   handleSetupChest={handleSetupChest}
+          //   loader={loader}
+          //   signIn={signIn}
+          // />
+          <HomePage handleSetupChest={handleSetupChest} loader={loader} />
         );
       case ESTEPS.TWO:
         return (
@@ -322,19 +323,19 @@ export default function Home() {
 
   return (
     <>
-      {pathname !== "/" ? (
-        <Header
-          walletAddress={walletAddress}
-          signIn={signIn}
-          step={step}
-          handleSteps={handleSteps}
-          onHamburgerClick={onHamburgerClick}
-          signOut={signOut}
-          setWalletAddress={setWalletAddress}
-          loader={loader}
-          initLoader={initLoader}
-        />
-      ) : null}
+      {/* {pathname !== "/" ? ( */}
+      <Header
+        walletAddress={walletAddress}
+        signIn={signIn}
+        step={step}
+        handleSteps={handleSteps}
+        onHamburgerClick={onHamburgerClick}
+        signOut={signOut}
+        setWalletAddress={setWalletAddress}
+        loader={loader}
+        initLoader={initLoader}
+      />
+      {/* ) : null} */}
 
       <ToastContainer
         toastStyle={{ backgroundColor: "#282B30" }}
