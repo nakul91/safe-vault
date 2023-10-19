@@ -27,7 +27,7 @@ main {
 }
 body {
   color: rgb(var(--foreground-rgb));
-  background: "#161326";
+  background: #161326;
 }
 body > div {
   min-height: 100%;
