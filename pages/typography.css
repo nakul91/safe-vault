@@ -50,3 +50,7 @@
 .hero_text {
     @apply font-inter font-semibold text-hero leading-13 text-white;
 }
+
+.paragraph_medium {
+    @apply font-inter font-medium text-base leading-[20px] text-black;
+}
