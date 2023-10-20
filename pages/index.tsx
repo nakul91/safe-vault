@@ -41,6 +41,7 @@ import { useWagmi } from "../utils/wagmi/WagmiContext";
 import { getSafePredictedAddress } from "../utils";
 import Login from "../ui_components/login/Login";
 import { usePathname } from "next/navigation";
+import { Deposit } from "../ui_components/deposit";
 
 export type THandleStep = {
   handleSteps: (step: number) => void;
@@ -264,7 +265,8 @@ export default function Home() {
           //   loader={loader}
           //   signIn={signIn}
           // />
-          <HomePage handleSetupChest={handleSetupChest} loader={loader} />
+          // <HomePage handleSetupChest={handleSetupChest} loader={loader} />
+          <Deposit />
         );
       case ESTEPS.TWO:
         return (
@@ -324,7 +326,7 @@ export default function Home() {
   return (
     <>
       {/* {pathname !== "/" ? ( */}
-      <Header
+      {/* <Header
         walletAddress={walletAddress}
         signIn={signIn}
         step={step}
@@ -334,7 +336,7 @@ export default function Home() {
         setWalletAddress={setWalletAddress}
         loader={loader}
         initLoader={initLoader}
-      />
+      /> */}
       {/* ) : null} */}
 
       <ToastContainer

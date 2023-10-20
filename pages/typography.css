@@ -33,6 +33,9 @@
 .subtitle_black {
     @apply font-inter font-black text-medium leading-10 md:text-lg md:leading-10 text-black;
 }
+.subtitle_bold {
+    @apply font-inter font-bold text-medium leading-10 md:text-lg md:leading-10 text-black;
+}
 
 .support_text_bold {
     @apply font-inter font-semibold text-base leading-1 md:text-base md:leading-1 text-black;

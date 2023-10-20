@@ -33,6 +33,8 @@ import eye from "../../public/assets/images/eye.svg";
 import depositIcon from "../../public/assets/images/deposit_icon.svg";
 import withdrawIcon from "../../public/assets/images/withdraw_icon.svg";
 import vaultIcon from "../../public/assets/images/vault_icon.svg";
+import chevronBack from "../../public/assets/images/chevron_back.svg";
+import arrowDownCircle from "../../public/assets/images/arrow_down_circle.svg";
 
 export type TImages =
   | "logo"
@@ -69,6 +71,8 @@ export type TImages =
   | "depositIcon"
   | "withdrawIcon"
   | "vaultIcon"
+  | "chevronBack"
+  | "arrowDownCircle"
   | "loadAvatar";
 
 export type TNextImage = {
@@ -113,4 +117,6 @@ export const icons: Record<TImages, TNextImage> = {
   depositIcon,
   withdrawIcon,
   vaultIcon,
+  chevronBack,
+  arrowDownCircle,
 };
